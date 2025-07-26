@@ -15,10 +15,12 @@
         <header>
             <img src="images/logo.jpeg" alt="Rafting Company Logo">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
             </nav>
         </header>
         <main>
@@ -30,17 +32,44 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis?</p>
                 </article>
             </div>
-            <section>
+            <section class="history">
                 <h2>History</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quaerat repellat laborum quasi consequatur quia, expedita eos delectus dolor fuga ex vero est laudantium, saepe in eveniet dolorem magnam molestias a omnis necessitatibus nesciunt blanditiis. Mollitia qui repellendus rem voluptatum, tempora provident laborum quis accusantium obcaecati debitis quidem earum fugit.</p>
+                <div class="history-content">
+                    <div class="history-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    </div>
+                    <div class="history-image">
+                        <img src="images/logo.jpeg" alt="History">
+                    </div>
+                    <div class="history-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section class="adventure">
                 <h2>Adventure Awaits You!</h2>
-                <img src="images/rafting1.jpg" alt="Rafting1">
-                <img src="images/rafting2.jpg" alt="Rafting2">
-                <img src="images/rafting3.jpg" alt="Rafting3">
-                <img src="images/rafting4.jpg" alt="Rafting4">
-                <img src="images/rafting5.jpg" alt="Rafting5">
+                <div class="adventure-gallery">
+                    <figure>
+                        <img src="images/rafting1.jpg" alt="Rafting1">
+                        <figcaption>Big Mallard</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting2.jpg" alt="Rafting2">
+                        <figcaption>Half Day Adventure</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting3.jpg" alt="Rafting3">
+                        <figcaption>Los Dientes del Diablo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting4.jpg" alt="Rafting4">
+                        <figcaption>Full Day Adventure</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rafting5.jpg" alt="Rafting5">
+                        <figcaption>Tombstone</figcaption>
+                    </figure>
+                </div>
             </section>
         </main>
         <footer>
